@@ -12,7 +12,7 @@ body {
   font-family: "Domine", serif;
 }
 header {
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 0%;
 }
 header .container {
@@ -41,7 +41,7 @@ div.container .champions {
   justify-content: center;
   width: 50%;
 }
-div.champions{
+div.champions {
   align-items: center;
 }
 .champions {
@@ -50,21 +50,19 @@ div.champions{
   margin: 10px, 5px, 10px, 5px;
 }
 .champions .card:hover {
-  width: 32%;
-  height: 30%;
-  transition-duration: 0.1s;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
   transition-delay: 0.2s;
 }
 .champions .container {
-  display:inline;
+  display: inline;
   margin: 20px 80px 20px 80px;
-
 }
 div.card {
   display: inline-table;
   width: 28%;
-  margin-bottom: 5px;
-  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-right: 25px;
 }
 .card img {
   display: flex;
@@ -72,13 +70,13 @@ div.card {
   height: 100%;
   border-radius: 10px;
 }
-.nomedocampeao{
+.nomedocampeao {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   width: auto;
   height: auto;
-  position: block;
+  font-size: 13px;
   border-radius: 10px;
-  background: rgba(66, 105, 62, 0.5) ;
+  background: rgba(66, 105, 62, 0.5);
   color: rgb(226, 226, 226);
 }
