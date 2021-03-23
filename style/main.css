@@ -41,28 +41,28 @@ div.container .champions {
   justify-content: center;
   width: 50%;
 }
-div.champions {
-  align-items: center;
-}
 .champions {
   display: flex;
   border: groove 3px rgba(7, 7, 7, 0.8);
-  margin: 10px, 5px, 10px, 5px;
 }
 .champions .card:hover {
   transform: scale(1.2);
   transition-duration: 0.4s;
-  transition-delay: 0.2s;
+  transition-delay: 0.05s;
 }
-.champions .container {
+.champions .container-hero {
   display: inline;
   margin: 20px 80px 20px 80px;
+  align-items: center;
+}
+div.modelador {
+  margin-left: 80px;
 }
 div.card {
   display: inline-table;
   width: 28%;
   margin-bottom: 20px;
-  margin-right: 25px;
+  margin-right: 40px;
 }
 .card img {
   display: flex;
